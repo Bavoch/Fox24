@@ -14,8 +14,8 @@
 
 | 系统 | 安装包 |
 | --- | --- |
-| macOS Apple Silicon | `mac-arm64.dmg` 或 `.zip` |
-| macOS Intel | `mac-x64.dmg` 或 `.zip` |
+| macOS 13+ Apple Silicon | `mac-arm64.dmg` 或 `.zip` |
+| macOS 13+ Intel | `mac-x64.dmg` 或 `.zip` |
 | Windows 64 位 | `win-x64.exe` |
 | Linux 64 位 | `linux-x86_64.AppImage` 或 `linux-amd64.deb` |
 
@@ -24,6 +24,13 @@ Ubuntu 24.04 等限制用户命名空间的系统建议使用 `.deb`，安装器
 从 [Releases](https://github.com/Bavoch/Fox24/releases) 选择对应版本与文件。每个版本附带 `SHA256SUMS.txt`。
 
 当前为候选版本，macOS 使用 ad-hoc 签名，尚未完成 Apple Developer ID 公证；Windows 未签名。系统可能提示未知开发者。请自行核实来源与校验值。尚未完成所有系统与实体设备的安装验收。
+
+## 安装
+
+- macOS：打开 DMG，将 Fox24 拖到 Applications。
+- Windows：运行 `.exe` 安装程序，按向导完成安装。
+- Debian / Ubuntu：使用系统软件安装器打开 `.deb`，或运行 `sudo apt install ./Fox24-*-linux-amd64.deb`。
+- AppImage：先运行 `chmod +x Fox24-*-linux-x86_64.AppImage`，再启动；需满足上方沙箱条件。
 
 ## AI 使用准备
 
