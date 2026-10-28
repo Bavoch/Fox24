@@ -19,6 +19,8 @@
 | Windows 64 位 | `win-x64.exe` |
 | Linux 64 位 | `linux-x64.AppImage` 或 `.deb` |
 
+Ubuntu 24.04 等限制用户命名空间的系统建议使用 `.deb`，安装器会配置沙箱与 AppArmor。AppImage 需要系统允许用户命名空间。
+
 从 [Releases](https://github.com/Bavoch/Fox24/releases) 选择对应版本与文件。每个版本附带 `SHA256SUMS.txt`。
 
 当前为候选版本，macOS 使用 ad-hoc 签名，尚未完成 Apple Developer ID 公证；Windows 未签名。系统可能提示未知开发者。请自行核实来源与校验值。尚未完成所有系统与实体设备的安装验收。
