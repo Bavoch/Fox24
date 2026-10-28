@@ -17,7 +17,7 @@
 | macOS Apple Silicon | `mac-arm64.dmg` 或 `.zip` |
 | macOS Intel | `mac-x64.dmg` 或 `.zip` |
 | Windows 64 位 | `win-x64.exe` |
-| Linux 64 位 | `linux-x64.AppImage` 或 `.deb` |
+| Linux 64 位 | `linux-x86_64.AppImage` 或 `linux-amd64.deb` |
 
 Ubuntu 24.04 等限制用户命名空间的系统建议使用 `.deb`，安装器会配置沙箱与 AppArmor。AppImage 需要系统允许用户命名空间。
 
